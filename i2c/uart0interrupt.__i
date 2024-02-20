@@ -1,0 +1,1 @@
+-c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork -I "C:\Keil4\ARM\CMSIS\Include" -I "C:\Keil4\ARM\INC\Philips" -o "uart0interrupt.o" --omf_browse "uart0interrupt.crf" --depend "uart0interrupt.d" "..\uart-interrupt\uart0interrupt.c"

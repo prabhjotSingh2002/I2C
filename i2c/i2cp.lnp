@@ -1,0 +1,4 @@
+--cpu ARM7TDMI "startup.o" "i2cdriver.o" "lcd4bitdriver.o" "uart0.o" "main.o" "timer0driver.o" "printingfunc.o" "externalinterrupt.o" "setting.o" --strict --scatter "i2cp.sct" 
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\i2cp.map" -o "i2cp.axf"

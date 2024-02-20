@@ -1,0 +1,31 @@
+*** Creating Trace Output File 'i2cproject.tra' Ok.
+### Preparing for ADS-LD.
+### Creating ADS-LD Command Line
+### List of Objects: adding '"startup.o"'
+### List of Objects: adding '"i2cdriver.o"'
+### List of Objects: adding '"lcd4bitdriver.o"'
+### List of Objects: adding '"uart0.o"'
+### List of Objects: adding '"main.o"'
+### List of Objects: adding '"timer0driver.o"'
+### List of Objects: adding '"printingfunc.o"'
+### List of Objects: adding '"setting.o"'
+### List of Objects: adding '"externalinterrupt0.o"'
+### List of Objects: adding '"externalinterrupt1.o"'
+### List of Objects: adding '"alarmset.o"'
+### List of Objects: adding '"timer1interrupt.o"'
+### List of Objects: adding '"callsetting.o"'
+### ADS-LD Command completed:
+--cpu ARM7TDMI "startup.o" "i2cdriver.o" "lcd4bitdriver.o" "uart0.o" "main.o" "timer0driver.o" "printingfunc.o" "setting.o" "externalinterrupt0.o" "externalinterrupt1.o" "alarmset.o" "timer1interrupt.o" "callsetting.o" --strict --scatter "i2cproject.sct" 
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\i2cproject.map" -o "i2cproject.axf"### Preparing Environment (PrepEnvAds)
+### ADS-LD Output File: 'i2cproject.axf'
+### ADS-LD Command File: 'i2cproject.lnp'
+### Checking for dirty Components...
+### Creating CmdFile 'i2cproject.lnp', Handle=0x00000344
+### Writing '.lnp' file
+### ADS-LD Command file 'i2cproject.lnp' is ready.
+### ADS-LD: About to start ADS-LD Thread.
+### ADS-LD: executed with 0 errors
+### Updating obj list
+### LDADS_file() completed.

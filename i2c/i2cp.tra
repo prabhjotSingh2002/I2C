@@ -1,0 +1,27 @@
+*** Creating Trace Output File 'i2cp.tra' Ok.
+### Preparing for ADS-LD.
+### Creating ADS-LD Command Line
+### List of Objects: adding '"startup.o"'
+### List of Objects: adding '"i2cdriver.o"'
+### List of Objects: adding '"lcd4bitdriver.o"'
+### List of Objects: adding '"uart0.o"'
+### List of Objects: adding '"main.o"'
+### List of Objects: adding '"timer0driver.o"'
+### List of Objects: adding '"printingfunc.o"'
+### List of Objects: adding '"externalinterrupt.o"'
+### List of Objects: adding '"setting.o"'
+### ADS-LD Command completed:
+--cpu ARM7TDMI "startup.o" "i2cdriver.o" "lcd4bitdriver.o" "uart0.o" "main.o" "timer0driver.o" "printingfunc.o" "externalinterrupt.o" "setting.o" --strict --scatter "i2cp.sct" 
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\i2cp.map" -o "i2cp.axf"### Preparing Environment (PrepEnvAds)
+### ADS-LD Output File: 'i2cp.axf'
+### ADS-LD Command File: 'i2cp.lnp'
+### Checking for dirty Components...
+### Creating CmdFile 'i2cp.lnp', Handle=0x0000023C
+### Writing '.lnp' file
+### ADS-LD Command file 'i2cp.lnp' is ready.
+### ADS-LD: About to start ADS-LD Thread.
+### ADS-LD: executed with 0 errors
+### Updating obj list
+### LDADS_file() completed.
